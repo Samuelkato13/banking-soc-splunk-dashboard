@@ -1,0 +1,2 @@
+index=soc_labs
+| stats count by protocol
