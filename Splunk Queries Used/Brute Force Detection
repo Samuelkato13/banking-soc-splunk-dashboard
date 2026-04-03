@@ -1,0 +1,4 @@
+index=soc_labs event=LOGIN_FAILED
+| stats count by src_ip
+| where count > 20
+| sort -count
